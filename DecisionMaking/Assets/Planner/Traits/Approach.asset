@@ -23,16 +23,16 @@ MonoBehaviour:
     m_LimitComparerReference: 
   - m_Name: parameter2
     m_RequiredTraits:
-    - {fileID: 11400000, guid: 6b7c2cd8001b84552891cf17ebf8b587, type: 2}
     - {fileID: 11400000, guid: 11f302d85072c54459c4c22594f42f79, type: 2}
+    - {fileID: 11400000, guid: 6b7c2cd8001b84552891cf17ebf8b587, type: 2}
     m_ProhibitedTraits: []
     m_LimitCount: 0
     m_LimitComparerType: 
     m_LimitComparerReference: 
   - m_Name: parameter3
     m_RequiredTraits:
-    - {fileID: 11400000, guid: 6b7c2cd8001b84552891cf17ebf8b587, type: 2}
     - {fileID: 11400000, guid: 33ee906a4f1ef1442892e444f43707d7, type: 2}
+    - {fileID: 11400000, guid: 6b7c2cd8001b84552891cf17ebf8b587, type: 2}
     m_ProhibitedTraits: []
     m_LimitCount: 0
     m_LimitComparerType: 

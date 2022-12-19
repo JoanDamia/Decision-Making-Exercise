@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1082,8 +1082,26 @@ MonoBehaviour:
     MaximumDecisionTolerance: 3.4028235e+38
     MinimumPlanSize: 0
     MinimumPlanningTime: 0
-  m_WorldObjectQuery: {fileID: 0}
-  m_ActionExecuteInfos: []
+  m_WorldObjectQuery: {fileID: 1867897476}
+  m_ActionExecuteInfos:
+  - m_ActionName: Wander
+    m_PlanExecutorStateUpdateMode: 0
+    m_Method: 
+    m_SourceGameObject: {fileID: 1867897468}
+    m_Source: {fileID: 0}
+    m_Arguments: []
+  - m_ActionName: Approach
+    m_PlanExecutorStateUpdateMode: 0
+    m_Method: 
+    m_SourceGameObject: {fileID: 1867897468}
+    m_Source: {fileID: 0}
+    m_Arguments: []
+  - m_ActionName: Steal
+    m_PlanExecutorStateUpdateMode: 0
+    m_Method: 
+    m_SourceGameObject: {fileID: 1867897468}
+    m_Source: {fileID: 0}
+    m_Arguments: []
   m_AutoUpdate: 1
 --- !u!114 &1867897475
 MonoBehaviour:
@@ -1100,6 +1118,33 @@ MonoBehaviour:
   m_p338023941: {fileID: 1396052342}
   m_p2084774077: {x: 2.54, y: 3.0713345e-17, z: 6.95}
   m_p2006904664: {x: 0, y: 0, z: 1}
+--- !u!114 &1867897476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867897468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f222baf27330f49959caf266f2f6b851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Query:
+    m_QueryGroups:
+    - m_Filters: []
+      m_Quantifier: 0
+      m_QuantifierLimit: 0
+      m_QuantifierScorer:
+        id: 0
+      m_RequiredTraits:
+        m_Traits: []
+      m_ProhibitedTraits:
+        m_Traits: []
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
 --- !u!4 &1991188668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4936136730399340, guid: 10dcade9ef34ab642846c4b889ac76e7, type: 3}

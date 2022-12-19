@@ -270,6 +270,18 @@
       },
       "url": "https://packages.unity.com"
     },
+    "generated.ai.planner.plans": {
+      "version": "file:generated.ai.planner.plans",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "generated.ai.planner.staterepresentation": {
+      "version": "file:generated.ai.planner.staterepresentation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "generated.semantic.traits": {
       "version": "file:generated.semantic.traits",
       "depth": 0,
